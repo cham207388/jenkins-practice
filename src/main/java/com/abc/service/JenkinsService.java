@@ -9,7 +9,7 @@ public class JenkinsService {
         return "Hello World Jenkins";
     }
 
-    public String jenkins(){
-        return "Hello World Jenkins";
+    public int jenkins(){
+        return 1;
     }
 }
