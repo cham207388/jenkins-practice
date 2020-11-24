@@ -8,4 +8,8 @@ public class JenkinsService {
     public String hello(){
         return "Hello World Jenkins";
     }
+
+    public String jenkins(){
+        return "Hello World Jenkins";
+    }
 }

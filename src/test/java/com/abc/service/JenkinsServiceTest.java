@@ -12,4 +12,10 @@ class JenkinsServiceTest {
         JenkinsService service = new JenkinsService();
         assertEquals("Hello World Jenkins", service.hello());
     }
+
+    @Test
+    void jenkins() {
+        JenkinsService service = new JenkinsService();
+        assertEquals("Hello World Jenkins", service.hello());
+    }
 }
