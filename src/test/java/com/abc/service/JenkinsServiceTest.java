@@ -16,6 +16,6 @@ class JenkinsServiceTest {
     @Test
     void jenkins() {
         JenkinsService service = new JenkinsService();
-        assertEquals(2, service.jenkins());
+        assertEquals(1, service.jenkins());
     }
 }
